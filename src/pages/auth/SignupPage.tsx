@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useAuth } from '../../hooks/useAuth';
-import Button from '../../components/Button';
+import Button from '../../components/ui/Button';
 
 // Form validation schema
 const signupSchema = z.object({

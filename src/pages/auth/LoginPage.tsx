@@ -204,3 +204,11 @@ const LoginPage = () => {
               <LogIn className="mr-2 h-5 w-5" />
               Login
             </Button>
+          </form>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default LoginPage;
